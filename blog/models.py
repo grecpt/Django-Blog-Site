@@ -29,5 +29,5 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
-    objects = models.Manager() # The default manager.
-    publish = PublishedManager() #Our customer manager.
+    objects   = models.Manager() # The default manager.
+    published = PublishedManager() #Our customer manager.
